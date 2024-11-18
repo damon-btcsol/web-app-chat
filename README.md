@@ -24,8 +24,8 @@ Follow these steps to get the application up and running on your local machine.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yogi0808/Web-Chat-App.git
-   cd Web-Chat-App
+   git clone https://github.com/damon1205/web-chat-app.git
+   cd web-chat-app
    ```
 
 2. **Install dependencies:**
@@ -79,13 +79,3 @@ Follow these steps to get the application up and running on your local machine.
    - Block users to prevent them from sending you messages.
 
    - Unblock users to allow them to send you messages again.
-
-## Screenshots
-
-![ChatApp1](https://github.com/yogi0808/Web-Chat-App/assets/148646093/9ad76eb7-608a-4f2e-87b6-08a7ff658a05)
-
-![ChatApp2](https://github.com/yogi0808/Web-Chat-App/assets/148646093/09d91457-2ea5-4569-852b-92271ab353ca)
-
-![ChatApp3](https://github.com/yogi0808/Web-Chat-App/assets/148646093/f40c92ef-af17-4b2a-9502-dc901c2db59a)
-
-![ChatApp4](https://github.com/yogi0808/Web-Chat-App/assets/148646093/8f5bcc9f-0aff-4a66-8906-a1ca9c4fd24f)
