@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color-scheme: dark light;
+}
+
+@layer utilities {
+    .flex-center {
+        @apply flex items-center justify-center
+    }
+
+    .input {
+        @apply dark:bg-b-3/70 px-3 py-2 transition-all rounded-md dark:text-w-3 border dark:border-w border-w-3 focus:dark:bg-b-3/20 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50
+    }
+
+    .btn {
+        @apply bg-primary hover:bg-primary/80 transition-all px-3 py-2 rounded-md text-base font-medium text-white disabled:cursor-not-allowed disabled:bg-primary/60
+    }
+}
+
+/* dark mode looking scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #555;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #171A1C;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #464E53;
+}
